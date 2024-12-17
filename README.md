@@ -1,18 +1,55 @@
-## Getting Started
+# Desafio DIO Java - Simulação de Conta Bancária
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## 🚀 Visão Geral do Projeto
+Este projeto faz parte de um desafio proposto pela **DIO (Digital Innovation One)** e conduzido pelo professor **Gleyson Sampaio**. O objetivo é ensinar a sintaxe básica da linguagem **Java** e demonstrar o uso da classe **Scanner** para capturar entradas do usuário.
 
-## Folder Structure
+O programa simula a criação de uma conta bancária simples, onde o usuário fornece informações como:
+- Número da Agência
+- Número da Conta
+- Nome e Sobrenome
+- Saldo Inicial
 
-The workspace contains two folders by default, where:
+Ao final, o programa exibe uma mensagem resumindo os dados fornecidos e confirmando a criação da conta.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+---
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 🛠️ Tecnologias Utilizadas
+- **Java**: Linguagem de programação principal
+- **Scanner**: Para captura de dados do usuário
+- **Locale**: Para formatação de entrada e saída de dados
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+---
 
-## Dependency Management
+## 🎯 Objetivos de Aprendizado
+1. Compreender a **sintaxe básica do Java**.
+2. Aprender a utilizar a classe **Scanner** para capturar entradas do teclado.
+3. Praticar **concatenação de strings** e manipulação de variáveis.
+4. Entender a formatação de números decimais usando `Locale.US`.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
+
+## 📥 Como Executar o Projeto
+1. Instale o **Java JDK** (versão 8 ou superior).
+2. Salve o código em um arquivo chamado `ContaTerminal.java`.
+3. Compile o programa usando o terminal:
+   ```bash
+   javac ContaTerminal.java
+   ```
+4. Execute o programa:
+   ```bash
+   java ContaTerminal
+   ```
+5. Insira as informações solicitadas no terminal.
+
+---
+
+## 🔗 Referências
+- [Plataforma DIO](https://www.dio.me)
+- [Documentação Java](https://docs.oracle.com/en/java/)
+
+---
+
+## 📚 Autor
+**Pedro Bigas**  
+- 💼 [LinkedIn](https://www.linkedin.com/in/pedro-bigas/)  
+- 🖥️ [GitHub](https://github.com/PedroBigas)
